@@ -5,7 +5,7 @@ async function buscarEndereco(cep) {
     mensagemErro.innerHTML = '';
 
     if(!cep.trim()){
-        mensagemErro.innerHTML = '<p>Informe um CEP válido.</p>'
+        mensagemErro.innerHTML = '<p>CEP não Informe. Digite um CEP válido.</p>'
         return;
     }
 
