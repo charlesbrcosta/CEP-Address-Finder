@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -100,10 +100,10 @@
 
             <div class="formulario__campo">
                 <label class="campo__etiqueta" for="cep">CEP</label>
-                <input name="cep" id="cep" class="campo__escrita" required />
-                <div id="erro"></div>
-            </div>
-
+                <input name="cep" id="cep" class="campo__escrita" required />  
+                <div id="erro"></div> 
+            </div>         
+                
             <div class="formulario__campo">
                 <label class="campo__etiqueta" for="endereco">Endereço</label>
                 <input name="endereco" id="endereco" class="campo__escrita" required />
@@ -130,7 +130,7 @@
 
                 <div class="formulario__campo">
                     <label class="campo__etiqueta" for="estado">UF</label>
-                    <select id="estado" name="estado" class="campo__escrita">
+                    <select id="estado" name="estado" class="campo__escrita" disabled>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
                         <option value="AP">Amapá</option>
@@ -251,6 +251,7 @@
     </footer>
 
     <script src="script.js"></script>
+    
 </body>
 
 </html>
